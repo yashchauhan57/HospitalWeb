@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+}
+
+
+.hero-left {
+  max-width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 50px;
+  color: #222;
+}
+
+.hero-left span {
+  color: #007bff;
+}
+
+.hero-left p {
+  margin: 20px 0;
+  color: #555;
+  font-size: 18px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-right img {
+  width: 400px;
+  animation: float 3s ease-in-out infinite;
+}
+
+
+@keyframes float {
+  
+  50% {
+    transform: translateY(-10px);
+  }
+}
